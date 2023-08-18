@@ -1,0 +1,19 @@
+CREATE TABLE store (item TEXT primary key, name INTEGER, Quantity INTEGER, price INTEGER,customers INTEGER);
+
+INSERT INTO store VALUES ( "A" , 2, 14, 7, 10);
+
+INSERT INTO store VALUES ( "B", 3, 2, 10, 8);
+INSERT INTO store VALUES ( "C", 4, 5,3,10);
+INSERT INTO store VALUES ( "D", 5, 5, 12,3);
+INSERT INTO store VALUES ( "E", 6, 10, 15,26);
+INSERT INTO store VALUES ( "F", 7,3,2,30);
+INSERT INTO store VALUES ( "G", 8,2,8,10);
+INSERT INTO store VALUES ( "H", 9, 7,7,14);
+INSERT INTO store VALUES ( "I", 10,9,10,40);
+INSERT INTO store VALUES ( "J", 11,4,8,20);
+INSERT INTO store VALUES ( "K", 12,5,8,30);
+INSERT INTO store VALUES ( "L", 13,8,300,25);
+INSERT INTO store VALUES ( "M", 14,1,209,30);
+INSERT INTO store VALUES ( "N", 15,2,2,20);
+INSERT INTO store VALUES ( "O",16,9,30,28);
+SELECT * FROM store WHERE price ORDER BY price
